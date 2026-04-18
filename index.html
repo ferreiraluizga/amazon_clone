@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Amazon.com.br</title>
+</head>
+
+<body class="bg-body-tertiary">
+    <!--header-->
+    <nav class="bg-dark text-white">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center py-2">
+                <a class="navbar-brand text-white fw-bold me-4" href="#">
+                    amazon.com.br
+                </a>
+                <div class="me-3 d-flex align-items-end small">
+                    <i class="bi bi-geo-alt fs-4"></i>
+                    <div class="d-flex flex-column">
+                        <div>A entrega será feita em Bela Vista 01319900</div>
+                        <strong>Atualizar CEP</strong>
+                    </div>
+                </div>
+                <div class="flex-grow-1 mx-3">
+                    <div class="input-group">
+                        <select class="form-select w-auto" style="max-width:95px;">
+                            <option>Todos</option>
+                        </select>
+                        <input type="text" class="form-control" placeholder="Pesquisar Amazon.com.br">
+                        <button class="btn btn-warning">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conta -->
+                <div class="me-4 small">
+                    <div>Olá, faça seu login</div>
+                    <strong>Contas e Listas <i class="bi bi-caret-down-fill"></i></strong>
+                </div>
+                <div class="me-4 small">
+                    <div>Devoluções</div>
+                    <strong>e Pedidos</strong>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-cart fs-4"></i>
+                    <strong class="ms-1">Carrinho</strong>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark">
+            <div class="container-fluid d-flex justify-content-between align-items-center py-2">
+                <div class="d-flex gap-3 small align-items-center">
+                    <a href="" class="text-white text-decoration-none fs-6 fw-semibold"><i class="bi bi-list"></i>
+                        Todos</a>
+                    <a href="#" class="text-white text-decoration-none">Venda na Amazon</a>
+                    <a href="#" class="text-white text-decoration-none">Chega em 15 min</a>
+                    <a href="#" class="text-white text-decoration-none">Ofertas do Dia</a>
+                    <a href="#" class="text-white text-decoration-none">Mais Vendidos</a>
+                    <a href="#" class="text-white text-decoration-none">Games</a>
+                    <a href="#" class="text-white text-decoration-none">Livros</a>
+                    <a href="#" class="text-white text-decoration-none">Música</a>
+                    <a href="#" class="text-white text-decoration-none">Casa</a>
+                    <a href="#" class="text-white text-decoration-none">Eletrônicos</a>
+                    <a href="#" class="text-white text-decoration-none">Brinquedos e Jogos</a>
+                </div>
+                <a href="#" class="text-white fw-semibold text-decoration-none">Séries e Filmes | Incluído com Prime</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--carousel-->
+    <div id="carouselExample" class="carousel slide carousel-dark mb-5">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel7.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--products-->
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col">
+                <div class="card border-0 shadow-lg rounded-0 h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <p class="card-title fs-5 fw-bold">Ofertas melhores avaliadas</p>
+                            <div class="row g-2 mb-3">
+                                <div class="col-6 d-flex flex-column">
+                                    <img src="img/row1/card1_img1.jpg" class="img-fluid mb-1" alt="">
+                                    <div class="small d-flex align-items-center mt-auto">
+                                        <span class="badge text-bg-danger me-2">15% Off</span>
+                                        <span class="text-danger fw-semibold">Oferta</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex flex-column">
+                                    <img src="img/row1/card1_img2.jpg" class="img-fluid mb-1" alt="">
+                                    <div class="small d-flex align-items-center mt-auto">
+                                        <span class="badge text-bg-danger me-2">11% Off</span>
+                                        <span class="text-danger fw-semibold">Oferta</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex flex-column">
+                                    <img src="img/row1/card1_img1.jpg" class="img-fluid mb-1" alt="">
+                                    <div class="small d-flex align-items-center mt-auto">
+                                        <span class="badge text-bg-danger me-2">8% Off</span>
+                                        <span class="text-danger fw-semibold">Oferta</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex flex-column">
+                                    <img src="img/row1/card1_img3.jpg" class="img-fluid mb-1" alt="">
+                                    <div class="small d-flex align-items-center mt-auto">
+                                        <span class="badge text-bg-danger me-2">5% Off</span>
+                                        <span class="text-danger fw-semibold">Oferta</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link text-decoration-none small">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg rounded-0 h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <p class="card-title fs-5 fw-bold">Eleve sua rotina de beleza</p>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <img src="img/row1/card2_img1.jpg" class="img-fluid" alt="">
+                                    <small>Maquiagem Premium</small>
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/row1/card2_img2.jpg" class="img-fluid" alt="">
+                                    <small>Skincare Premium</small>
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/row1/card2_img3.jpg" class="img-fluid" alt="">
+                                    <small>Fragrâncias Premium</small>
+                                </div>
+                                <div class="col-6">
+                                    <img src="img/row1/card2_img4.jpg" class="img-fluid" alt="">
+                                    <small>Cabelo Profissional</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link text-decoration-none small">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg rounded-0 h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <p class="card-title fs-5 fw-bold">Semana da Casa e Cozinha: até 40% off</p>
+                            <img src="img/row1/card3_img.jpg" class="img-fluid" alt="">
+                        </div>
+                        <a href="#" class="card-link text-decoration-none small">Ver Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg rounded-0 h-100">
+                    <div class="card-body">
+                        <p class="card-title fs-5 fw-bold">Acesse uma conta para ter a melhor experiência</p>
+                        <button class="btn btn-warning w-100 rounded-pill">Fazer login de forma segura</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="text-white">
+
+        <!-- Voltar ao topo -->
+        <div class="bg-secondary text-center py-2">
+            <a href="#" class="text-white text-decoration-none small">Voltar ao início</a>
+        </div>
+
+        <!-- Links principais -->
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <h6 class="fw-bold">Conheça-nos</h6>
+                        <ul class="list-unstyled small vstack gap-2">
+                            <li><a href="#" class="text-white text-decoration-none">Sobre a Amazon</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Informações corporativas</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Carreiras</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Comunicados à imprensa</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Comunidade</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Acessibilidade</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Amazon Science</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <h6 class="fw-bold">Ganhe dinheiro conosco</h6>
+                        <ul class="list-unstyled small vstack gap-2">
+                            <li><a href="#" class="text-white text-decoration-none">Venda na Amazon</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Proteja e construa a sua marca</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Forneça para a Amazon</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Publique seus livros</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Seja um associado</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Anuncie seus produtos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <h6 class="fw-bold">Pagamento</h6>
+                        <ul class="list-unstyled small vstack gap-2">
+                            <li><a href="#" class="text-white text-decoration-none">Meios de pagamento</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Compre com pontos</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Cartão de crédito Amazon</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-3">
+                        <h6 class="fw-bold">Deixe-nos ajudar você</h6>
+                        <ul class="list-unstyled small vstack gap-2">
+                            <li><a href="#" class="text-white text-decoration-none">Sua conta</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Frete e prazo de entrega</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Devoluções e reembolsos</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Gerencie seu conteúdo</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Recalls e alertas</a></li>
+                            <li><a href="#" class="text-white text-decoration-none">Ajuda</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo + país -->
+        <div class="bg-dark border-top py-3">
+            <div class="container text-center">
+                <span class="fw-bold">amazon</span>
+                <button class="btn btn-outline-light btn-sm ms-3">Brasil</button>
+            </div>
+        </div>
+
+        <!-- Rodapé final -->
+        <div class="bg-black text-center py-3 small">
+            <div class="container">
+                <div class="mb-2">
+                    <a href="#" class="text-white text-decoration-none px-2">Condições de Uso</a>
+                    <a href="#" class="text-white text-decoration-none px-2">Notificação de Privacidade</a>
+                    <a href="#" class="text-white text-decoration-none px-2">Cookies</a>
+                    <a href="#" class="text-white text-decoration-none px-2">Anúncios Baseados em Interesses</a>
+                </div>
+                <div class="mb-5">© 2021-2026 Amazon.com, Inc. ou suas afiliadas</div>
+                <div class="mb-5 small">Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03</div>
+                <div class="mb-5 small">Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011 | <span class="fw-semibold px-2">Fale conosco</span> | ajuda-amazon@amazon.com.br</div>
+                <div class="mb-3 small">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões de débito (Visa e Elo), Boleto e Pix.</div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
